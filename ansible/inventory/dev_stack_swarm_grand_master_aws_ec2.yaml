@@ -8,4 +8,4 @@ filters:
 hostnames:
   - "private-ip-address"
 compose:
-  ansible_user: "'ec2-user'"2.yaml
+  ansible_user: "'ec2-user'"
