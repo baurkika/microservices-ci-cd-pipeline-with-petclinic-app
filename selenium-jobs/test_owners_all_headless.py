@@ -24,7 +24,7 @@ all_link = driver.find_element_by_link_text("ALL")
 all_link.click()
 
 # Verify that table loaded
-sleep(1)
+sleep(10)
 verify_table = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "table")))
 
 print("Table loaded")
