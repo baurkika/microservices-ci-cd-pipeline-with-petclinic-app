@@ -12,7 +12,7 @@ metadata:
   name: api-gateway
 spec:
   rules:
-    - host: petclinic.baurkika.com
+    - host: petclinicstaging03.baurkika.com
       http:
         paths:
           - backend:
