@@ -47,6 +47,3 @@ images:
   newName: "${IMAGE_TAG_GRAFANA_SERVICE}"
 - name: IMAGE_TAG_PROMETHEUS_SERVICE
   newName: "${IMAGE_TAG_PROMETHEUS_SERVICE}"
-Collapse
-
-
